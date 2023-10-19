@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Tilt+Neon&display=swap");
+
+:root {
+  --primary-red: rgba(255, 0, 0, 0.2);
+  --secondary-red: rgb(176, 138, 107);
+  --shadow: rgba(0, 0, 0, 0.2);
+  --text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
+}
+
+body {
+  height: 100dvh;
+  background: linear-gradient(rgba(255, 255, 255, 0.614), var(--secondary-red))
+    fixed;
+  font-family: "Poppins";
+}
+
+nav {
+  background: var(--primary-red);
+  display: flex;
+  text-align: left;
+  box-shadow: 0 0 10px var(--shadow);
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-shadow: var(--text-shadow);
+  padding: 20px;
+  font-size: larger;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  transform: scale(1.2);
+}
+
+.home,
+.about {
+  margin-top: 2rem;
+  border-radius: 20px;
+  padding: 10px;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  text-shadow: var(--text-shadow);
+  background-color: var(--primary-red);
+}
+
+.about {
+  color: #0000005e;
+  background-color: var(--secondary-red);
+}

@@ -1,18 +1,12 @@
-import ListGroup from "./components/ListGroup";
-
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
 function App() {
-  let items = ["Yemen", "Saudi Arabia", "Palestine", "Iraq"];
-  const handleSelectItem = (item: string) => {
-    console.log(item);
-  };
-
   return (
     <div>
-      <ListGroup
-        items={items}
-        heading="Arab Countries"
-        onSelectItem={handleSelectItem}
-      />
+      <Navbar></Navbar>
+      <Home></Home>
+      <About></About>
     </div>
   );
 }
