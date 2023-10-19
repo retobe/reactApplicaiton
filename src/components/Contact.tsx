@@ -20,8 +20,8 @@ const Contact = () => {
         ></a>
         <a
           href="https://www.youtube.com/watch?v=Zw0ixrzpMRw&ab_channel=MoreSidemen"
-          id="pinterest"
-          className="fa fa-pinterest"
+          id="youtube"
+          className="fa fa-youtube"
         ></a>
         <a
           href="https://www.youtube.com/watch?v=Zw0ixrzpMRw&ab_channel=MoreSidemen"

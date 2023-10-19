@@ -26,4 +26,4 @@ dist-ssr
 .gitignore
 .vscode
 .env
-.vite-env.d.ts
+vite-env.d.ts

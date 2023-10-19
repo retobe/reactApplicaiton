@@ -8,7 +8,7 @@
 }
 
 body {
-  height: 100dvh;
+  height: 1080px;
   background: linear-gradient(rgba(255, 255, 255, 0.614), var(--secondary-red))
     fixed;
   font-family: "Poppins";
@@ -37,10 +37,13 @@ a:hover {
 .home,
 .about,
 .contact {
+  width: 90%;
+  margin: auto;
+  max-width: 40rem;
   margin-top: 2rem;
   border-radius: 20px;
   padding: 10px;
-  font-family: "Poppins";
+  font-family: "Arial" !important;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -60,10 +63,14 @@ a:hover {
 }
 
 .contact-items a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   text-shadow: var(--text-shadow);
-  font-size: 50px;
-  width: 50px;
-  height: 50px;
+  font-size: 40px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
 }
 
@@ -77,7 +84,7 @@ a:hover {
   background: #26a7de;
 }
 
-#pinterest {
+#youtube {
   color: white;
   background: red;
 }
