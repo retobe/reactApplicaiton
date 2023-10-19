@@ -27,3 +27,5 @@ dist-ssr
 .vscode
 .env
 vite-env.d.ts
+package.json
+package-lock.json
